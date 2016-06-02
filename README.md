@@ -16,7 +16,7 @@ pod "Segment-Wootric"
 First of all you need to provide values for account token, clientID and client secret in Segment's dashboard for Wootric integration, then import Segment-Wootric:
 
 ```objective-c
-#import <SegmentWootric/SegmentWootric.h>
+#import <Segment-Wootric/SegmentWootric.h>
 ```
 
 you can now init the Analytics with Wootric integration:
