@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
                           'Segment-Wootric/WTRWootricIntegration.h',
                           'Segment-Wootric/WTRWootricIntegrationFactory.h'
 
-  s.dependency 'Analytics', '~> 3.0.1-alpha'
+  s.dependency 'Analytics', '~> 3.5.0'
   s.dependency 'WootricSDK'
 end
