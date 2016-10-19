@@ -1,17 +1,19 @@
 Pod::Spec.new do |s|
   s.name             = "Segment-Wootric"
   s.module_name      = "SegmentWootric"
-  s.version          = "0.1.5"
+  s.version          = "0.1.6"
   s.summary          = "Wootric integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
                        This is the Wootric integration for the iOS Analytics library.
                        DESC
 
-  s.homepage         = "https://www.wootric.com"
-  s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
-  s.author           = { "Łukasz Cichecki" => "lukasz@copper.io" }
-  s.source           = { :git => "https://github.com/Wootric/segment-wootric-ios.git", :tag => s.version.to_s }
+  s.homepage          = "https://www.wootric.com"
+  s.license           = { :type => 'MIT', :file => 'LICENSE.md' }
+  s.documentation_url = "http://docs.wootric.com/ios/"
+  s.social_media_url  = "https://twitter.com/Wootric"
+  s.authors           = { 'Wootric' => 'support@wootric.com' }
+  s.source            = { :git => "https://github.com/Wootric/segment-wootric-ios.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
