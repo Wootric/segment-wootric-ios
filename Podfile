@@ -3,4 +3,6 @@ use_frameworks!
 
 platform :ios, '8.0'
 
-pod "Segment-Wootric", :path => "./"
+target 'Segment-Wootric' do
+  pod "Segment-Wootric", :path => "./"
+end

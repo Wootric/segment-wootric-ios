@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B15E0B30AD6C0DF79FBB26AE /* Pods_Segment_Wootric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3FD6747C53FAEF62187725 /* Pods_Segment_Wootric.framework */; };
 		B21372AF1BF49A2E009F5974 /* WTRWootricIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = B21372AD1BF49A2E009F5974 /* WTRWootricIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B21372B01BF49A2E009F5974 /* WTRWootricIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B21372AE1BF49A2E009F5974 /* WTRWootricIntegrationFactory.m */; };
 		B21372B31BF49A8F009F5974 /* WTRWootricIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = B21372B11BF49A8F009F5974 /* WTRWootricIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A93D25A1886836C24798D21 /* Pods-Segment-Wootric.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment-Wootric.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Segment-Wootric/Pods-Segment-Wootric.debug.xcconfig"; sourceTree = "<group>"; };
+		AC3FD6747C53FAEF62187725 /* Pods_Segment_Wootric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Segment_Wootric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21372A11BF0D150009F5974 /* SegmentWootric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SegmentWootric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21372AD1BF49A2E009F5974 /* WTRWootricIntegrationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTRWootricIntegrationFactory.h; sourceTree = "<group>"; };
 		B21372AE1BF49A2E009F5974 /* WTRWootricIntegrationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTRWootricIntegrationFactory.m; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		B21372C01BF5F371009F5974 /* WTRWootricUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTRWootricUtils.h; sourceTree = "<group>"; };
 		B21372C11BF5F371009F5974 /* WTRWootricUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTRWootricUtils.m; sourceTree = "<group>"; };
 		B2D5B3101BFB343700E60853 /* SegmentWootric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentWootric.h; sourceTree = "<group>"; };
+		BCAB47C97FE565BF7CEF777E /* Pods-Segment-Wootric.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment-Wootric.release.xcconfig"; path = "Pods/Target Support Files/Pods-Segment-Wootric/Pods-Segment-Wootric.release.xcconfig"; sourceTree = "<group>"; };
 		D69B14FDFDEB2B6D40A6FC26 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -34,16 +38,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15E0B30AD6C0DF79FBB26AE /* Pods_Segment_Wootric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7EBBC97FAD3A3F882081EE3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A93D25A1886836C24798D21 /* Pods-Segment-Wootric.debug.xcconfig */,
+				BCAB47C97FE565BF7CEF777E /* Pods-Segment-Wootric.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD9E6B84069244A07D1EA0D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D69B14FDFDEB2B6D40A6FC26 /* Pods.framework */,
+				AC3FD6747C53FAEF62187725 /* Pods_Segment_Wootric.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -54,6 +69,7 @@
 				B21372A31BF0D150009F5974 /* Segment-Wootric */,
 				B21372A21BF0D150009F5974 /* Products */,
 				AD9E6B84069244A07D1EA0D1 /* Frameworks */,
+				7EBBC97FAD3A3F882081EE3B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +125,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B21372A91BF0D150009F5974 /* Build configuration list for PBXNativeTarget "Segment-Wootric" */;
 			buildPhases = (
+				346BB8622C367711588A5848 /* [CP] Check Pods Manifest.lock */,
 				B213729C1BF0D150009F5974 /* Sources */,
 				B213729D1BF0D150009F5974 /* Frameworks */,
 				B213729E1BF0D150009F5974 /* Headers */,
@@ -129,7 +146,7 @@
 		B21372981BF0D150009F5974 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Wootric;
 				TargetAttributes = {
 					B21372A01BF0D150009F5974 = {
@@ -164,6 +181,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		346BB8622C367711588A5848 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Segment-Wootric-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B213729C1BF0D150009F5974 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -191,12 +229,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -247,12 +287,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -286,6 +328,7 @@
 		};
 		B21372AA1BF0D150009F5974 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A93D25A1886836C24798D21 /* Pods-Segment-Wootric.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -305,6 +348,7 @@
 		};
 		B21372AB1BF0D150009F5974 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCAB47C97FE565BF7CEF777E /* Pods-Segment-Wootric.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

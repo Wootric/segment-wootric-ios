@@ -14,9 +14,8 @@
   if (self = [super init]) {
     _settings = settings;
     NSString *clientID = _settings[@"clientId"];
-    NSString *clientSecret = _settings[@"clientSecret"];
     NSString *accountToken = _settings[@"accountToken"];
-    [Wootric configureWithClientID:clientID clientSecret:clientSecret accountToken:accountToken];
+    [Wootric configureWithClientID:clientID accountToken:accountToken];
   }
 
   return self;

@@ -1,20 +1,27 @@
 PODS:
-  - Analytics (3.0.2-alpha)
-  - Segment-Wootric (0.1.1):
-    - Analytics (~> 3.0.1-alpha)
-    - WootricSDK
-  - WootricSDK (0.4.2)
+  - Analytics (3.6.9)
+  - Segment-Wootric (0.2.0):
+    - Analytics (~> 3.6.0)
+    - WootricSDK (~> 0.9.0)
+  - WootricSDK (0.9.0)
 
 DEPENDENCIES:
   - Segment-Wootric (from `./`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Analytics
+    - WootricSDK
 
 EXTERNAL SOURCES:
   Segment-Wootric:
     :path: "./"
 
 SPEC CHECKSUMS:
-  Analytics: a9794c7b948c0208c6e15653e3871b30c3dc37ad
-  Segment-Wootric: f6e12efc273e5e54f482f020d7f042357f5e9570
-  WootricSDK: 57fad25c1b47ad6ffffacebc2ff9d9bea54b0377
+  Analytics: 6541ce337e99d9f7a2240a8b3953940a7be5f998
+  Segment-Wootric: e2048c275a743302a91506687fb43f739c55a070
+  WootricSDK: a05d3de7468137a2db6de4590f2cc3e235a8bfc5
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 6182dcf52db2359e08cc03f150c0fdd1c0ab8d24
+
+COCOAPODS: 1.5.0
