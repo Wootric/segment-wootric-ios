@@ -1,3 +1,9 @@
+## 0.2.0 (2018-05-24)
+
+### Changes:
+
+- Update WootricSDK version
+
 ## 0.1.7 (2017-11-23)
 
 ### Changes:
