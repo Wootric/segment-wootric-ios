@@ -13,7 +13,7 @@ pod "Segment-Wootric"
 
 (It is advised to read [WootricSDK docs](https://github.com/Wootric/WootricSDK-iOS) first.)
 
-First of all you need to provide values for account token, clientID and client secret in Segment's dashboard for Wootric integration, then import Segment-Wootric:
+First of all you need to provide values for account token and clientID in Segment's dashboard for Wootric integration, then import Segment-Wootric:
 
 ```objective-c
 #import <Segment-Wootric/SegmentWootric.h>
