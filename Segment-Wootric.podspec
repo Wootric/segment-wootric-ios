@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "Segment-Wootric"
   s.module_name      = "SegmentWootric"
-  s.version          = "0.2.0"
+  s.version          = "0.2.1"
   s.summary          = "Wootric integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
                           'Segment-Wootric/WTRWootricIntegrationFactory.h'
 
   s.dependency 'Analytics', '~> 3.6.0'
-  s.dependency 'WootricSDK', '~> 0.9.0'
+  s.dependency 'WootricSDK', '~> 0.9'
 end
