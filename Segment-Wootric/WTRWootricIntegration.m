@@ -33,6 +33,18 @@
   [Wootric setEndUserProperties:endUserProperties];
 }
 
+- (void)track:(SEGTrackPayload *)payload {
+  NSDictionary *properties = payload.properties;
+  NSString *eventName = payload.event;
+  NSString *language = [properties objectForKey:@"language"];
+
+  if (language) {
+    [Wootric setCustomLanguage:language];
+  }
+
+  [Wootric setEventName:eventName];
+}
+
 + (SEGWootric *)wootric {
   return [[SEGWootric alloc] init];
 }
