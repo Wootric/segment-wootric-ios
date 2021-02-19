@@ -11,11 +11,10 @@ Pod::Spec.new do |s|
   s.homepage          = "https://www.wootric.com"
   s.license           = { :type => 'MIT', :file => 'LICENSE.md' }
   s.documentation_url = "http://docs.wootric.com/ios/"
-  s.social_media_url  = "https://twitter.com/Wootric"
   s.authors           = { 'Wootric' => 'support@wootric.com' }
   s.source            = { :git => "https://github.com/Wootric/segment-wootric-ios.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '10.0'
   s.requires_arc = true
 
   s.source_files = 'Segment-Wootric/*.{h,m}'
@@ -23,6 +22,6 @@ Pod::Spec.new do |s|
                           'Segment-Wootric/WTRWootricIntegration.h',
                           'Segment-Wootric/WTRWootricIntegrationFactory.h'
 
-  s.dependency 'Analytics', '~> 4.1.3'
+  s.dependency 'Analytics', '~> 4.1.1'
   s.dependency 'WootricSDK', '~> 0.19.1'
 end
