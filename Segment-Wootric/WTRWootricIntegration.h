@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Analytics/SEGIntegration.h>
+#import <Segment/SEGIntegration.h>
 #import <WootricSDK/WootricSDK.h>
 
 @interface WTRWootricIntegration : NSObject<SEGIntegration>

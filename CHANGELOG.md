@@ -1,3 +1,9 @@
+## 0.4.0 (2022-08-02)
+
+### Changes:
+
+- Update WootricSDK & Analytics version
+
 ## 0.3.1 (2021-02-18)
 
 ### Changes:
